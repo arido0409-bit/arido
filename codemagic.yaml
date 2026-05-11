@@ -6,9 +6,7 @@ workflows:
     triggering:
       events:
         - push
-      branch:
-        - pattern: main
-          include: true
+      when: '{{ github.event.ref == "refs/heads/main" }}'
     scripts:
       - name: Get dependencies
         script: flutter pub get
