@@ -6,8 +6,8 @@ workflows:
     triggering:
       events:
         - push
-      branch_filters: # الإصلاح هنا
-        - name: main
+      branch:
+        - pattern: main
           include: true
     scripts:
       - name: Get dependencies
