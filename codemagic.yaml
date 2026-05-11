@@ -6,8 +6,9 @@ workflows:
     triggering:
       events:
         - push
-          branches:
-            - main
+      branch_filters:
+        - name: main
+          include: true
     scripts:
       - name: Get dependencies
         script: flutter pub get
