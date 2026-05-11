@@ -1,0 +1,12 @@
+general:
+    # The vcs branch tracked by this Flutter app.
+    track-branch-ios-13.1: alpha
+
+    # Whether to automatically upgrade your Flutter dependencies
+    # If enabled, `flutter upgrade` will upgrade your dependencies to the latest
+    # possible versions. If you want to manually upgrade your dependencies, comment out this line.
+    auto-upgrade: true
+
+    # Comma separated list of glob patterns for files which should be excluded from analysis.
+    excluded-files:
+        - lib/migrations/**

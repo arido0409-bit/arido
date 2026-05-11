@@ -1,0 +1,14 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter tool to assess capabilities and perform upgrades etc.
+#
+# This file should be version controlled and should not be manually edited.
+
+version:
+  revision: "0bced493fd0ee1f98e48e79e1cccb25a6dcfc1b5"
+  channel: "stable"
+
+project_type: app
+
+# Tracks metadata associated with user preferences.
+preferences:
+  vscode_refactor_command_avoidance_enabled: false
